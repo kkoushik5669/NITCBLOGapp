@@ -8,7 +8,7 @@ const signup=async (req,res,next)=>{
     }
     const hashpassword=bcryptjs.hashSync(password,10);
     const newUser=new User({
-        username,email,password:hashpassword
+        username:username,email:email,password:hashpassword
     });
     try{
         await newUser.save();
