@@ -29,7 +29,7 @@ export default function Header(){
     return (
         <Navbar className="border-b-2">
             <Link to="/" className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'>
-                <span className='px-2 py-1 bg-gradient-to-r from-violet-500 via-pink-500 to-orange-500 rounded-lg text-white'>NITC's</span>
+                <span className='px-2 py-1 bg-gradient-to-r from-green-300 via-blue-300 to-yellow-100 rounded-lg text-white'>NITC's</span>
                 Talk
             </Link>
             <form>

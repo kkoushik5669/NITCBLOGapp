@@ -25,7 +25,7 @@ export default function CreatePost() {
           <FileInput type='file' accept='image/*' />
           <Button
             type='button'
-            gradientDuoTone='purpleToBlue'
+            gradientDuoTone='redToYellow'
             size='sm'
             outline
           >
